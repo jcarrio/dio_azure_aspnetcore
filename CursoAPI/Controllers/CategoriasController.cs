@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Cursomvc.Models;
 
+#pragma warning disable 1591
+//#pragma warning restore 1591
 namespace CursoAPI.Controllers
 {
     [Route("api/[controller]")]
